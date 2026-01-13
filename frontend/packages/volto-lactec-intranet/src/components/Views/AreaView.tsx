@@ -2,7 +2,7 @@ import React from 'react';
 import { getBaseUrl } from '@plone/volto/helpers/Url/Url';
 import { Container } from '@plone/components';
 import RenderBlocks from '@plone/volto/components/theme/View/RenderBlocks';
-import type { Area } from '../../types/content';
+import type { Area } from 'volto-lactec-intranet/types/content';
 import ContactInfo from 'volto-lactec-intranet/components/ContactInfo/ContactInfo';
 
 interface AreaViewProps {

@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <registry>
-  <records interface="plone.base.interfaces.controlpanel.INavigationSchema" prefix="plone">
+  <records interface="plone.base.interfaces.controlpanel.INavigationSchema"
+           prefix="plone"
+  >
     <value key="displayed_types">
       <element>Collection</element>
       <element>Event</element>
@@ -21,6 +23,6 @@
     <value key="sitemap_depth">3</value>
     <value key="sort_tabs_on">getObjPositionInParent</value>
     <value key="sort_tabs_reversed">False</value>
-    <value key="workflow_states_to_show"/>
+    <value key="workflow_states_to_show" />
   </records>
 </registry>

@@ -3,7 +3,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     >
 
-  
+
   <genericsetup:upgradeSteps
       profile="lactec.intranet:default"
       source="1000"
